@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+:root{
+
+         --color-texto: #0A3871;
+
+}
+
+* {
+    padding: 0;
+    margin:0;
+}
+
+body{
+   box-sizing: border-box;
+    background-color: #D8DFE8;
+    color: var(--color-texto);
+
+
+ }
+.header{
+   padding: 2% 0% 0% 1%;
+   width: 50%;
+}
+
+
+ .contenedor__principal{
+   display: flex;
+   padding: 7%;
+   height: 270px;
+   align-items: center;
+   justify-content: space-between;
+   
+ }
+
+ .contenedor__contenido{
+
+   padding: 9% 0%;
+ }
+
+ .contentedor__entrada{
+
+   height: 310px;
+ }
+    
+ .contenedor__ingreso__texto{
+
+    background-color: #D8DFE8;
+    border:none;
+    outline: none;
+    margin-bottom: 50%;
+   
+    
+}
+
+.contenedor__ingreso__texto{
+
+
+   font-family: "Inter", sans-serif;
+   font-size: 1.5rem;
+   color:var(--color-texto);
+
+   
+}
+
+.contenedor__entrada__texto{
+   font-family: "Inter", sans-serif;
+   font-size: 0.75rem;
+
+   
+   
+   
+}
+.contenedor__botones{
+
+   margin-top: 30px;
+   
+}
+.contenedor__boton__encriptar{
+
+width:200px ;
+padding: 2%;
+border-radius: 24px;
+background-color:var(--color-texto);
+font-family: "Inter", sans-serif;
+   font-size: 1rem;
+   color: #FFFFFF;
+   width: 40%;
+   
+  
+
+
+}
+.contenedor__boton__desencriptar{
+   width:200px ;
+   padding: 2%;
+   margin-left: 20px;
+   border-radius: 24px;
+   background-color:#D8DFE8;
+   font-family: "Inter", sans-serif;
+   font-size: 1rem;
+   color: var(--color-texto);
+   width: 40%;
+   
+
+}
+   
+ .contenedor__de__salida{
+
+   display: flex; 
+   justify-content: center;
+   text-align: center;
+   background-color:#FFFFFF;
+   border-radius:32px ;
+   width: 50%;
+  
+ }
+
+ .contenedor__texto__salida{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   color:aqua;
+   padding: 3%;
+   
+ }
+.contendor__salida__encriptacion{
+   
+   display: flex;
+   justify-content: center;
+   width: 10%;
+
+}
+
+ .salida__encripcion{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   font-family: "Inter", sans-serif;
+   font-size: 1.5rem;
+   color:var(--color-texto);
+   width: 50%;
+
+
+ }
+ .contenedor__resultado__titulo{
+
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   font-family: "Inter", sans-serif;
+   font-size: 1.5rem;
+   color:#343A40;
+   width: 50%;
+   
+   
+
+
+ }
+
+ 
+
+ .imagen__muñeco{
+
+   width: 50%;
+
+   
+ }
+ .contenedor__resultado__texto{
+
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   font-size: 1rem;
+   color:#343A40;
+ }
+
+
+ .contenedor__principal__boton{
+   display: flex;
+   justify-content: center;
+   display: none;
+   margin-top: 30%;
+   margin-left: -30%;
+   width: 20% ;
+ }
+
+
+.contendor_boton_copiar{
+
+   padding: 20% 80%;
+   border-radius: 24px;
+   background-color:#D8DFE8;
+   font-family: "Inter", sans-serif;
+   font-size: 1rem;
+   color:var(--color-texto);
+
+   
+   
+
+}
+
+textarea{
+      
+   font-size: 16px;
+   padding: 10px;
+   width: 100%;
+   max-width: 500px;
+   box-sizing: border-box;
+   resize: none;
+
+}
+
+::placeholder{
+
+   color:#888;
+   font-size: 1.5rem ;
+   font-family: "Dancing Script", cursive;
+   
+
+   
+}
+
+
+
+
+#confirmacion{
+   display:none;
+   color:var(--color-texto);
+   margin-top: 10px;
+   font-size: 1.5rem ;
+   font-family: "Dancing Script", cursive;
+}
+
+
+@media ( max-width: 1200px){
+
+   
+   .contenedor__principal{
+
+      flex-direction: column;
+      padding: 0%;
+   }
+   .contenedor__contenido{
+
+      padding: 1%;
+   }
+   .imagen__muñeco{
+
+      display:none;
+   }
+   
+}

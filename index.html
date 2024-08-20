@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>encriptador</title>
+    
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+        <header class="header">
+            <img src="ima/Logo.png" alt="logo alura" class="contendor___logotipo">
+        </header>
+
+<main class="contenedor__principal">
+       <section class="contenedor__contenido">
+           <div class="contentedor__entrada">
+                <textarea placeholder="Ingrese el texto aqui.." cols="50" rows="10" class="contenedor__ingreso__texto" 
+                   id="textusuario">
+                </textarea>
+            </div>
+
+            <a class="contenedor__entrada__texto"><img src="ima/bi_exclamation-circle-fill.png" alt="">
+            solo letras minusculas y sin accentos    
+            </a>
+
+            <div class="contenedor__botones">
+                
+            <button onclick="verificarDeEncriptar();" class="contenedor__boton__encriptar" id="valorusuario">
+            Encriptar</button>
+            
+            <button onclick="verificarDesencriptar()"   class="contenedor__boton__desencriptar" id="valor">
+            Desencriptar</button>
+            </div>
+        </section>
+
+
+        <section class="contenedor__de__salida">
+        <section class="contenedor__texto__salida" >
+            <div class="contendor__salida__encriptacion" id="contendeor__salida">
+            <output class="salida__encripcion" id="texto" value="textoa a copiar" readonly ></output></div>
+            <img src="ima/Muñeco.png" alt="muñeco de busqueda" id="imagen" class="imagen__muñeco" >
+            <h2 class="contenedor__resultado__titulo" id="titulo">Ningùn mensaje fue encontrado</h2>
+            <p class="contenedor__resultado__texto" id="parrafo">Ingrese el texto que desea encriptar o desencriptar</p>
+            <div class="contenedor__principal__boton" id="cotenedor__estetica">
+            <button onclick="copiar()" class="contendor_boton_copiar" copiar id="copiar_texto" 
+                style="display: none;">copiar</button></div>
+            <div id="confirmacion">¡texto exitosamente copiado!</div>
+        </section>
+        </section>
+
+       
+
+ </main>
+
+
+ <footer></footer>
+<script src="app.js"></script>
+</body>
+</html>
